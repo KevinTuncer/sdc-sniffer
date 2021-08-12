@@ -1,0 +1,31 @@
+{
+  "name": "sdcsniffer",
+  "version": "1.0.1",
+  "description": "Record SDC messages on a blockchain",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node build/index.js",
+    "start:dev": "nodemon",
+    "build": "rimraf ./build && tsc"
+  },
+  "keywords": [],
+  "author": "Kevin Kei Tuncer",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.33",
+    "@types/node-fetch": "^2.5.8",
+    "@types/openpgp": "^4.4.15",
+    "@types/ws": "^7.4.0",
+    "child_process": "^1.0.2",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.7",
+    "rimraf": "^3.0.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
+    "ws": "^7.4.4"
+  },
+  "dependencies": {
+    "eosjs": "^21.0.3",
+    "openpgp": "^4.10.10"
+  }
+}
