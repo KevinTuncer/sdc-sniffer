@@ -64,7 +64,7 @@ And start it with the command help to see all available commands
 ```properties
 node build/index.js help
 ```
-Alternative to bilding the application:
+Alternative to bulding the application:
 
 Start in dev mode
 ```properties
@@ -120,4 +120,8 @@ PC 1, PC 2a and b are tested in different configurations with two different step
 
 The lowest home PCs reach in the lowest configuration around 100 KB/s. For comparison: 100 typical compressed and encrypted SDC messages correspond to 10 KB. With a better compression rate for large files the blockchain should handle more than 1000 SDC messages in the lowest configuration. PC 1 reached the best results in local configuration with around 700 KB/s.
 
-This is just for a rough estimate of the SDC Blockchain Logger. Further optimization of the code, the blockchain node parameters and better hardware can increase the reached values even more.
+This is just for a rough estimate of the SDC Blockchain Logger. Further optimization of the code, "other blockchain node parameters and better hardware can increase the reached values even more.
+
+
+# Licence
+The whole project is open source and free to use, see MIT licence. If you want to work on this project, feel free to contact me or push some improvements.
